@@ -1,7 +1,8 @@
 // File: src/LoginSignup.js
 
 import React, { useState } from 'react';
-import './LoginSignup.css';
+import '../css/LoginSignup.css'; // Update path to point to the new location of LoginSignup.css
+
 import axios from 'axios';
 
 function LoginSignup() {

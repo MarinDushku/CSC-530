@@ -1,10 +1,11 @@
 // File: src/App.js
+import '../css/App.css'; // Update path to point to the new location of App.css
+import logo from '../js/logo.svg'; // Update path to point to the correct location of logo.svg, assuming it is in the `js` folder
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import './App.css';
-import logo from './logo.svg';
+
 import LoginSignup from './LoginSignup';
 
 function App() {
